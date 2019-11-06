@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.idrive.RegisterActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:text="Registration"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/email"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:id="@+id/password"
+        android:hint="password"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:id="@+id/name"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:id="@+id/phone"
+        android:layout_marginTop="5dp"
+        android:hint="Phone Number"
+        android:inputType="phone"
+
+        />
+    <AutoCompleteTextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="Country*"
+        android:id="@+id/country"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        />
+    <AutoCompleteTextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="Town*"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:id="@+id/town"
+
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:id="@+id/range"
+        android:inputType="numberDecimal"
+        android:hint="Distance range (miles)*"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Content with asterixes are facultatif"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Done"
+        android:id="@+id/done"
+        />
+</LinearLayout>
+
+</ScrollView>

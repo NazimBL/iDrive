@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Register"
+        android:textSize="30dp"
+        android:textColor="#000001"
+        />
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Please tip down your phone number so that people will contact you when you want to be available"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:id="@+id/phoneDialog"
+        />
+
+</LinearLayout>
